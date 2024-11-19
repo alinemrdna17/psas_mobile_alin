@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:psas_mobile_pplg2/login.dart';
 import 'login.dart';
 
 void main() {
@@ -11,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'aplikasi login',
       theme: ThemeData (
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.deepPurple,
       ),
-      home: login.dart(),
+      home:LoginPage(),
     );
   }
 }
